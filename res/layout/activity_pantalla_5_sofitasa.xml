@@ -1,0 +1,253 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+	
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp" >
+
+		    <ImageView
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dp"
+		        android:src="@drawable/logo_banner_sofitasa"
+		        tools:ignore="ContentDescription" />
+		    
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="30dp"
+		    android:background="@drawable/degradadoheader_sofitasa"
+		    android:orientation="horizontal" >
+		</LinearLayout>
+
+     </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bSMSP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/degradadoboton"
+            android:text="@string/enviarsms" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:text="@string/pan"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/twPANP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textView5"
+            android:text="@string/vacio" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="17dp"
+            android:text="@string/fecha"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="15dp"
+            android:text="@string/estatus"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bInicioP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:background="@drawable/degradadoboton"
+            android:text="@string/inicio" />
+
+        <TextView
+            android:id="@+id/twhoraP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView9"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="@string/vacio" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:layout_alignLeft="@+id/textView8"
+            android:text="@string/afil"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="13dp"
+            android:text="@string/cedula"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/twcedulaP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView6"
+            android:layout_alignLeft="@+id/twestatusP5"
+            android:text="@string/vacio" />
+
+        <TextView
+            android:id="@+id/twestatusP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView11"
+            android:layout_alignLeft="@+id/twfechaP5"
+            android:text="@string/vacio" />
+
+        <TextView
+            android:id="@+id/twfechaP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView7"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignLeft="@+id/twPANP5"
+            android:text="@string/vacio" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/twhoraP5"
+            android:layout_alignBottom="@+id/twhoraP5"
+            android:layout_toRightOf="@+id/textView6"
+            android:text="@string/hora"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/twmontoP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView6"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_marginLeft="14dp"
+            android:text="@string/vacio"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView1"
+            android:text="@string/rifsofitasa2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:text="@string/rifsofitasa"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_below="@+id/textView11"
+            android:layout_marginLeft="15dp"
+            android:text="@string/montobs"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/nombresofitasa"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:text="@string/compra"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="80dp"
+		    android:background="@drawable/degradadofooter"
+		    android:orientation="horizontal">
+		    
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.07"
+		        android:gravity="center_horizontal"
+		        android:paddingTop="25dp"
+		        android:text="Linkit Ingenieria y Sistemas"
+		        android:textColor="#FFFFFF"
+		        tools:ignore="HardcodedText" />
+		    
+		</LinearLayout>
+
+     </LinearLayout>
+     
+
+</LinearLayout>

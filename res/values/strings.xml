@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoPOS_E105</string>
+
+    <string name="botonsetup">Guardar y Salir</string>
+    <string name="vacio">---------</string>
+    <string name="continuar">Continuar</string>
+    <string name="nombrebanesco">BANESCO</string>
+    <string name="nombresofitasa">SOFITASA</string>
+    <string name="nombremercantil">MERCANTIL</string>
+    <string name="inicio">INICIO</string>
+    <string name="enviarsms">Enviar SMS</string>
+    <string name="rifbanesco">RIF: J-606541235</string>
+    <string name="rifsofitasa">RIF: J-00092863–0</string>
+    <string name="rifmercantil">RIF: J-00002961–0</string>
+    <string name="montobs">MONTO BS.</string>
+    <string name="cedula">CEDULA: </string>
+    <string name="estatus">ESTATUS: </string>
+    <string name="hora">HORA: </string>
+    <string name="fecha">FECHA: </string>
+    <string name="pan">NRO CTA: </string>
+    <string name="afil">AFIL: 000001114382</string>
+    <string name="compra">COMPRA</string>
+    <string name="rifbanesco2">J07013380–5</string>
+    <string name="rifsofitasa2">J-00092863–0</string>
+    <string name="rifmercantil2">J-00002961–0</string>
+    <string name="serialterminal">Serial del Terminal: </string>
+    <string name="marcaterminal">Marca del Terminal: </string>
+    <string name="nombreterminal">Nombre del Terminal: </string>    
+    <string name="versionkernel">Versión del Kernel: </string>
+    <string name="versionlibreria">Versión de la Libreria E105: </string>
+	<string name="versionaplicacionValor">J9I.000.000 01 00 01</string>
+    <string name="versionaplicacion">Versión de la Aplicación: </string>
+    <string name="nombreaplicacion">Nombre de la Aplicación: </string>
+    <string name="informacionaplicacion">Información de la aplicación</string>
+    <string name="consultar">CONSULTAR</string>
+    <string name="totalmontosaprobados">Total Montos Aprobados: </string>
+    <string name="transacionesrechazadas">Transacciones Rechazadas: </string>
+	<string name="transacionesaprobadas">Transacciones Aprobadas: </string>
+	<string name="transacionesrealizadas">Transacciones Realizadas: </string>
+    <string name="fechafin">Fecha Fin</string>
+    <string name="fechainicio">Fecha Inicio</string>
+	<string name="tipo">TIPO: </string>
+	<string name="descripciontransaccion">DESCRIPCIÓN TRANSACCION N°</string>
+	<string name="transaccion">TRANSACCION N°</string>
+	<string name="tipotransaccion">TIPO DE TRANSACCION</string>
+	
+     <string name="setupdireccion">172.17.1.42</string>
+     <string name="setuppuerto">3042</string>
+     <string name="setuptelefono">04247128151</string>
+     
+    
+    
+    <string name="ejmpmonto">Ejm:  100.00</string>
+    <string name="ejmpcedula">Ejm:  17503044</string>
+    <string name="ejmpcelmerchant">Ejm: 7128151</string>
+    <string name="ejmppuerto">Ejm:  3042</string>
+    <string name="ejmpdireccion">Ejm: 172.17.1.42</string>
+    
+    
+	
+	<string name="IngreseTelefonoCliente">Ingrese Teléfono Cliente</string>
+	<string name="IngreseTelefonoMerchant">Ingrese Teléfono Merchant</string>
+    <string name="ingresemonto">Ingrese Monto</string>
+    <string name="ingresecedula">Ingrese Cedula</string>
+	<string name="socket">Ingrese Dirección IP</string>
+    <string name="puerto">Ingrese Número de Puerto</string>
+	
+    
+	<string-array name="operadoras">
+        <item>0414</item>
+        <item>0424</item>
+        <item>0416</item>
+        <item>0426</item>
+        <item>0412</item>
+    </string-array>
+	
+</resources>

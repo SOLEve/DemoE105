@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+   
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/logo_banner_mercantil"
+        android:orientation="vertical" >
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/body_mercantil"
+            android:orientation="vertical"
+            tools:ignore="InefficientWeight" >
+
+	    <TableLayout 
+	        android:layout_width="fill_parent" 
+	        android:id="@+id/tableLayout1" 
+	        android:layout_height="fill_parent" 
+	        android:stretchColumns="1" 
+	        android:paddingLeft="60dp"
+	        android:paddingTop="50dp">
+		    
+    		<TableRow 
+    		    android:id="@+id/tableRow1" 
+    		    android:layout_width="fill_parent" 
+    		    android:layout_height="fill_parent" >
+    		    
+        		<ImageView
+        		    android:id="@+id/BotonVenta"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_gravity="center"
+        		    android:src="@drawable/logo_venta_mercantil"
+        		    tools:ignore="ContentDescription" />
+        		
+        		<ImageView
+        		    android:id="@+id/BotonPanel"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_gravity="center"
+        		    android:src="@drawable/logo_panel_mercantil"
+        		    tools:ignore="ContentDescription" />
+
+    		</TableRow>
+    		
+    		<TableRow 
+    		    android:id="@+id/tableRow2" 
+    		    android:layout_width="fill_parent" 
+    		    android:layout_height="fill_parent"  
+    		    android:paddingTop="50dp">
+        		
+        		<ImageView
+        		    android:id="@+id/BotonInformacion"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_gravity="center"
+        		    android:src="@drawable/logo_informacion_mercantil"
+        		    tools:ignore="ContentDescription" />
+        		
+        		<ImageView
+        		    android:id="@+id/BotonInforme"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_gravity="center"
+        		    android:src="@drawable/logo_informe_mercantil"
+        		    tools:ignore="ContentDescription" />
+
+		    </TableRow>
+		    
+		    <TableRow 
+    		    android:id="@+id/tableRow3" 
+    		    android:layout_width="fill_parent" 
+    		    android:layout_height="fill_parent" 
+    		    android:paddingTop="50dp">
+
+		        <ImageView
+		            android:id="@+id/BotonAyuda"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/logo_ayuda_mercantil"
+		            tools:ignore="ContentDescription" />
+
+        		<ImageView
+        		    android:id="@+id/BotonSalida"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:src="@drawable/logo_salida_mercantil"
+        		    tools:ignore="ContentDescription" />
+
+		    </TableRow>
+		</TableLayout>  
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="80dp"
+		    android:background="@drawable/degradado_footer_mercantil"
+		    android:orientation="horizontal">
+		    
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.07"
+		        android:gravity="center_horizontal"
+		        android:paddingTop="25dp"
+		        android:text="Linkit Ingenieria y Sistemas"
+		        android:textColor="#FFFFFF"
+		        tools:ignore="HardcodedText,InefficientWeight" />
+		    
+		</LinearLayout>
+
+     </LinearLayout>
+     
+     
+</LinearLayout>

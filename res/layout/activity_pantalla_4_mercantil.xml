@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/logo_banner_mercantil"
+        android:orientation="vertical" >
+     </LinearLayout>
+
+    
+    <LinearLayout 
+        android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"    	
+	    android:background="@drawable/body2_mercantil"
+    	>
+
+        
+     </LinearLayout>
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="80dp"
+		    android:background="@drawable/degradado_footer_mercantil"
+		    android:orientation="horizontal">
+		    
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.07"
+		        android:gravity="center_horizontal"
+		        android:paddingTop="25dp"
+		        android:text="Linkit Ingenieria y Sistemas"
+		        android:textColor="#FFFFFF"
+		        tools:ignore="HardcodedText" />
+		    
+		</LinearLayout>
+
+     </LinearLayout>
+
+</LinearLayout>

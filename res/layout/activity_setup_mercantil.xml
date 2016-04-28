@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/logo_banner_mercantil"
+        android:orientation="vertical" >
+     </LinearLayout>
+
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:orientation="vertical"
+	    android:background="@drawable/body2_mercantil" >
+
+     	    <EditText
+     	        android:id="@+id/etdireccionsetup"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:layout_alignLeft="@+id/TextView01"
+     	        android:layout_below="@+id/textView1"
+     	        android:ems="10"
+     	        android:gravity="center_horizontal"
+     	        android:hint="@string/ejmpdireccion"
+     	        android:maxLength="15"
+     	        android:text="@string/setupdireccion"
+     	        android:textSize="20sp" />
+
+     	    <EditText
+     	        android:id="@+id/etcelmerchantsetup"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:layout_below="@+id/TextView03"
+     	        android:layout_centerHorizontal="true"
+     	        android:ems="10"
+     	        android:gravity="center_horizontal"
+     	        android:hint="@string/ejmpcelmerchant"
+     	        android:inputType="number"
+     	        android:text="@string/setuptelefono" />
+
+     	    <TextView
+     	        android:id="@+id/TextView03"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:layout_alignLeft="@+id/etpuertosetup"
+     	        android:layout_centerVertical="true"
+     	        android:text="@string/IngreseTelefonoMerchant"
+     	        android:textSize="20sp" />
+
+     	    <EditText
+     	        android:id="@+id/etpuertosetup"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:layout_above="@+id/TextView03"
+     	        android:layout_centerHorizontal="true"
+     	        android:layout_marginBottom="15dp"
+     	        android:ems="10"
+     	        android:gravity="center_horizontal"
+     	        android:hint="@string/ejmppuerto"
+     	        android:inputType="number"
+     	        android:maxLength="4"
+     	        android:text="@string/setuppuerto"
+     	        android:textSize="20sp" />
+
+     	    <TextView
+     	        android:id="@+id/TextView01"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:layout_above="@+id/etpuertosetup"
+     	        android:layout_centerHorizontal="true"
+     	        android:text="@string/puerto"
+     	        android:textSize="20sp" />
+
+     	    <TextView
+     	        android:id="@+id/textView1"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:layout_alignParentTop="true"
+     	        android:layout_centerHorizontal="true"
+     	        android:layout_marginTop="13dp"
+     	        android:text="@string/socket"
+     	        android:textSize="20sp" />
+
+     	    <Button
+     	        android:id="@+id/biniciosetup"
+     	        android:layout_width="wrap_content"
+     	        android:layout_height="wrap_content"
+     	        android:layout_alignParentBottom="true"
+     	        android:layout_centerHorizontal="true"
+     	        android:layout_marginBottom="11dp"
+     	        android:background="@drawable/degradadoboton"
+     	        android:text="@string/botonsetup" />
+
+     	</RelativeLayout>
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="80dp"
+		    android:background="@drawable/degradado_footer_mercantil"
+		    android:orientation="horizontal">
+		    
+		    <TextView
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.07"
+		        android:gravity="center_horizontal"
+		        android:paddingTop="25dp"
+		        android:text="Linkit Ingenieria y Sistemas"
+		        android:textColor="#FFFFFF"
+		        tools:ignore="HardcodedText" />
+		    
+		</LinearLayout>
+
+     </LinearLayout>
+
+</LinearLayout>

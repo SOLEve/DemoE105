@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+	
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp" >
+
+		    <ImageView
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dp"
+		        android:src="@drawable/logo_banner_sofitasa"
+		        tools:ignore="ContentDescription" />
+		    
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="30dp"
+		    android:background="@drawable/degradadoheader_sofitasa"
+		    android:orientation="horizontal" >
+		</LinearLayout>
+
+     </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bcontinuarP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/degradadoboton"
+            android:text="@string/continuar" />
+
+        <EditText
+            android:id="@+id/etmontoP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/ejmpmonto"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/etmontoP1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:text="@string/ingresemonto"
+            android:textSize="20sp" 
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/degradadofooter"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.07"
+                android:gravity="center_horizontal"
+                android:paddingTop="25dp"
+                android:text="Linkit Ingenieria y Sistemas"
+                android:textColor="#FFFFFF"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
